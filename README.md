@@ -1,2 +1,2 @@
 # text_editor
-First portfolio project
+discovering tkinter by making a simple text editor
