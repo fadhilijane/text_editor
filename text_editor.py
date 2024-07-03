@@ -17,7 +17,6 @@ my_frame.pack(pady=5)
 text_scroll = Scrollbar(my_frame)
 text_scroll.pack(side=RIGHT, fill=Y)
 
-
 #Let's create the text box
 my_text = Text(my_frame, width=97, height=25, font=("Helvetica", 16), selectbackground="yellow", selectforeground="black", undo=True,                                                    yscrollcommand=text_scroll.set)
 my_text.pack()
